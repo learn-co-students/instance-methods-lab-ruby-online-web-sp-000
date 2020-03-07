@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe 'Dog' do
   it 'is defined' do
     expect(defined?(Dog)).to be_truthy
@@ -11,7 +13,7 @@ describe 'Dog' do
     end
 
     it 'puts "Woof!"' do
-      expect($stdout).to receive(:puts).with("Woof!")
+      expect($stdout).to receive(:puts).with('Woof!')
 
       fido = Dog.new
       fido.bark
@@ -25,7 +27,7 @@ describe 'Dog' do
     end
 
     it 'puts "The Dog is sitting"' do
-      expect($stdout).to receive(:puts).with("The Dog is sitting")
+      expect($stdout).to receive(:puts).with('The Dog is sitting')
 
       fido = Dog.new
       fido.sit
@@ -46,7 +48,7 @@ describe 'Person' do
     end
 
     it 'puts "Hello World!"' do
-      expect($stdout).to receive(:puts).with("Hello World!")
+      expect($stdout).to receive(:puts).with('Hello World!')
 
       ada = Person.new
       ada.talk
@@ -60,7 +62,7 @@ describe 'Person' do
     end
 
     it 'puts "The Person is walking"' do
-      expect($stdout).to receive(:puts).with("The Person is walking")
+      expect($stdout).to receive(:puts).with('The Person is walking')
 
       ada = Person.new
       ada.walk
