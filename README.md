@@ -1,4 +1,4 @@
-# Instance Methods Lab Ruby
+nx n# Instance Methods Lab Ruby
 
 ## Learning Goals
 
@@ -71,6 +71,6 @@ individual, accurately named files. In a larger application, you might not
 always need to load the `Dog` class when loading the `Person` class. As classes
 get larger, it also becomes easier to manage your code if you know each file
 contains _one_ class. Keeping to these conventions makes it easier in the future
-to go back and read code you've previously written. 
+to go back and read code you've previously written.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/instance-methods-lab-ruby' title='Instance Methods Lab Ruby'>Instance Methods Lab Ruby</a> on Learn.co and start learning to code for free.</p>
